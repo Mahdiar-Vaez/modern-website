@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Navbar from './Components/navbar/Navbar'
+import Header from './Components/Container/header/Header'
+import WhatGpt3 from './Components/Container/whatGPT3/WhatGpt3'
+import Features from './Components/Container/features/Features'
+import Posibility from './Components/Container/posibility/Posibility'
+import Blog from './Components/Container/blog/Blog'
+import Footer from './Components/Container/footer/Footer'
+import Brand from './Components/brand/BrandComponent'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='app'>
+        <div className='gradient__bg'>
+            <Navbar/>
+            <Header/>
+        </div>
+        <Brand/>
+        <WhatGpt3/>
+        <Features/>
+        <Posibility/>
+        <Blog/>
+        <Footer/>
     </div>
-  );
+  )
 }
-
-export default App;
