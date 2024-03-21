@@ -7,6 +7,7 @@ import Posibility from './Components/Container/posibility/Posibility'
 import Blog from './Components/Container/blog/Blog'
 import Footer from './Components/Container/footer/Footer'
 import Brand from './Components/brand/BrandComponent'
+import CTA from './Components/cta/CTA'
 
 export default function App() {
   return (
@@ -19,6 +20,7 @@ export default function App() {
         <WhatGpt3/>
         <Features/>
         <Posibility/>
+        <CTA/>
         <Blog/>
         <Footer/>
     </div>
