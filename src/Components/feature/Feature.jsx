@@ -2,7 +2,7 @@ import React from 'react'
 import './feature.css'
 export default function FeatureComponent({title,text}) {
   return ( 
-    <div className='gpt3__features-container '>
+    <div className='gpt3__features-container__features '>
         <div className='gpt3__features-container__features-title'>
           <div/>
           <h1>{title}</h1>
